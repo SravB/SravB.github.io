@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<!-- TODO
+ADD INFO
+ADD ICON
+MAKE A BETTER THEME -->
+
+<html>
+<head>
+<title>Sourav Biswas</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="shortcut icon" type="image/png" href="images/icon.png"/>  ADD ICON HERE!!!!! -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head> 
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#Home" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
+    <a href="#AboutMe" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About Me</a>
+    <a href="#Projects" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</a>
+    <a href="./resume.pdf" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resume</a>
+    <a href="#Contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#About Me" class="w3-bar-item w3-button w3-padding-large">About Me</a>
+    <a href="#Projects" class="w3-bar-item w3-button w3-padding-large">Projects</a>
+    <a href="./resume.pdf" class="w3-bar-item w3-button w3-padding-large">Resume</a>
+    <a href="#Contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header id = "Home" class="w3-container w3-dark-gray w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin">Sourav Biswas - Currently Under Construction but Feel Free to Take a Look Around</h1>
+  <h3>Student, Leader, Creator</h3>
+</header>
+
+<!-- First Grid -->
+<div id = "AboutMe" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+      <h2>About Me</h2>
+      <h5 class="w3-padding-32">I'm currently a CS & BBA Double Degree Student at University of Waterloo. As an aspiring software developer, I'm a fast learner which allows me to be flexible with my technologies as necessary. I'm looking for internships and other learning opportunities so if you need another team member, feel free to contact me!</h5>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div id = "Projects" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+  
+      <h2>Projects</h2>
+      <h5 class="w3-padding-32">Here are a few of my side projects. For more projects, check out my <p class = "p1"><a href="https://github.com/SravB">GitHub!</a></p></h5>
+
+	  <h4>Stock Analyzer</h4>
+	  
+	  <p style="text-align:center"><img src="images/StockAnalyzerPicture.jpg" width = "100%" height = "100%"></p>
+	  
+      <p>The Stock Analyzer is a financial tool used to aid in an investor’s analysis of certain stocks. This tool can be used to analyze price trends and apply algorithmic trading strategies to historic stock prices. This program utilizes many features which include:</p>
+		
+	  <ul>
+		<li>Accessing Google Finance’s database using APIs in order to analyze historical stock prices.</li>
+		<li>Constructing lines of best fit for trend analysis.</li>
+		<li>Creating a correlation coefficient for past price trends.</li>	
+		<li>Creating and applying a Simple Moving Average (SMA) Algorithmic Trading Strategy.</li>
+	  </ul>  
+		
+	  <h4>Tanks</h4>
+	  
+	  <p style="text-align:center"><img src="images/TanksPicture.jpg" width = "100%" height = "100%"></p>
+	  
+	  <p>Tanks is a recreation of various classic tank games. The main objective of this game is to destroy the opponent’s tank. This can be accomplished by depleting the opponent’s hit points. There is also an option to play against an AI opponent which uses optimal aiming and implements the A* search algorithm for pathfinding.<p class = "p1"><a href="https://github.com/SravB/Tanks">Can you beat the AI? Let's find out!</a></p></p>
+		
+  </div>
+</div>
+
+<!-- Third Grid -->
+<div id = "Contact" class="w3-row-padding w3-padding-64 w3-container">
+
+      <h2>Contact</h2>
+      <h5 class="w3-padding-32">Feel free to contact me!</h5>
+
+	  <p class = "p1"><a href="mailto:biswasjosh@gmail.com"><i class="fa fa-envelope"></i>biswasjosh@gmail.com</a></p>
+	  <p class = "p1"><a href="https://github.com/SravB"><i class="fa fa-github"></i>github.com/SravB</a></p>
+      <p class = "p1"><a href="https://linkedin.com/in/sravb"><i class="fa fa-linkedin"></i>linkedin.com/in/sravb</a></p>
+	  
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-center w3-opacity">  
+ <p>&copy Sourav Biswas 2017.</p>
+</footer>
+
+</body>
+</html>
