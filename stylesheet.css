@@ -1,8 +1,8 @@
 header {
 	background-image: url("images/Background.jpg");
-    background-size: cover;                     
-    background-repeat: no-repeat;
-    background-position: center center;  
+    	background-size: cover;                     
+    	background-repeat: no-repeat;
+    	background-position: center center;  
 }
 
 h1 {
