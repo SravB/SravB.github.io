@@ -1,8 +1,73 @@
 header {
 	background-image: url("images/Background.jpg");
-    	background-size: cover;                     
-    	background-repeat: no-repeat;
-    	background-position: center center;  
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+table {
+	width: 100%;
+	height: 100%;
+	border-spacing: 30px;
+	padding: 20px;
+	padding-top: 60px;
+}
+
+tr {
+	width: 100%;
+	height: 100%;
+}
+
+td {
+	transition-duration: 0.8s;
+}
+
+td:hover {
+	opacity: 0.3;
+	box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
+}
+
+.cell1 {
+	background-image: url("images/s1.jpg");
+    background-size: contain;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.cell2 {
+	background-image: url("images/algo.jpg");
+    background-size: contain;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.cell3 {
+	background-image: url("images/tankspicture.jpg");
+    background-size: contain;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.cell4 {
+    background-color: black;
+}
+
+ .v4 {
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: center;
+	opacity: 0;
+	
+}
+
+.v4:hover {
+	opacity: 1;
+	
 }
 
 h1 {
