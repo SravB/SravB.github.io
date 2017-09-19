@@ -10,7 +10,8 @@ table {
 	height: 100%;
 	border-spacing: 30px;
 	padding: 20px;
-	padding-top: 60px;
+	padding-top: 20px;
+
 }
 
 tr {
@@ -20,6 +21,9 @@ tr {
 
 td {
 	transition-duration: 0.8s;
+	text-align: center;
+	vertical-align: middle;
+
 }
 
 td:hover {
@@ -27,17 +31,22 @@ td:hover {
 	box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
+.cells {
+	 margin-top: 20px;
+}
+
 .cell1 {
 	background-image: url("images/s1.jpg");
-    background-size: contain;
+	background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
+
 
 }
 
 .cell2 {
 	background-image: url("images/algo.jpg");
-    background-size: contain;
+	background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 
@@ -45,28 +54,76 @@ td:hover {
 
 .cell3 {
 	background-image: url("images/TanksPicture.jpg");
-    background-size: contain;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 
 }
 
 .cell4 {
-    background-color: black;
+  background-color: black;
+}
+
+.v1 {
+  font-family: 'Raleway', sans-serif;
+ 	color: white;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	vertical-align: center;
+ 	opacity: 0;
+
+}
+
+.v1:hover {
+ 	opacity: 0.7;
+ 	color: black;
+
+}
+
+.v2 {
+  font-family: 'Raleway', sans-serif;
+ 	color: white;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	vertical-align: center;
+ 	opacity: 0;
+
+}
+
+.v2:hover {
+ 	opacity: 0.7;
+ 	color: black;
+
+}
+
+.v3 {
+  font-family: 'Raleway', sans-serif;
+ 	color: white;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	vertical-align: center;
+ 	opacity: 0;
+
+}
+
+.v3:hover {
+ 	opacity: 0.7;
+ 	color: black;
+
 }
 
  .v4 {
 	font-family: 'Raleway', sans-serif;
-	color: black;
+	color: white;
 	font-size: 20px;
 	text-align: center;
 	vertical-align: center;
-	opacity: 0;
 
 }
 
 .v4:hover {
-	opacity: 1;
+	opacity: 0.7;
+	color: black;
 
 }
 
