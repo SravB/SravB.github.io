@@ -1,8 +1,8 @@
 header {
 	background-image: url("images/Background.jpg");
-    background-size: cover;                     
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;  
+    background-position: center center;
 }
 
 table {
@@ -29,7 +29,7 @@ td:hover {
 
 .cell1 {
 	background-image: url("images/s1.jpg");
-    background-size: contain;                     
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 
@@ -37,15 +37,15 @@ td:hover {
 
 .cell2 {
 	background-image: url("images/algo.jpg");
-    background-size: contain;                     
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 
 }
 
 .cell3 {
-	background-image: url("images/tankspicture.jpg");
-    background-size: contain;                     
+	background-image: url("images/TanksPicture.jpg");
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 
@@ -62,12 +62,12 @@ td:hover {
 	text-align: center;
 	vertical-align: center;
 	opacity: 0;
-	
+
 }
 
 .v4:hover {
 	opacity: 1;
-	
+
 }
 
 h1 {
@@ -145,11 +145,10 @@ p {
 	margin-bottom: 32px;
 }
 
-a { 
+a {
 	transition-duration: 0.8s;
 }
 
-a:hover { 
+a:hover {
 	background-color: #FFFFFF;
 }
-
