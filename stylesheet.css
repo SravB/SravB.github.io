@@ -209,3 +209,18 @@ a {
 a:hover {
 	background-color: #FFFFFF;
 }
+
+#contact1:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+#contact2:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+#contact3:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
