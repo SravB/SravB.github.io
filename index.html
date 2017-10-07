@@ -135,7 +135,11 @@ $(document).ready(function(){
 	$(".cell2").width(newWidth);
 	$(".cell3").width(newWidth);
 	$(".cell4").width(newWidth);
-  $(".more").css("padding-top", Math.round(newHeight/2 - 20));
+    $(".more").css("padding-top", Math.round(newHeight/2 - 20));
+	var newWidth2 = Math.max($("#contact1").width(), $("#contact2").width(), $("#contact3").width());
+	$("#contact1").width(newWidth2);
+	$("#contact2").width(newWidth2);
+	$("#contact3").width(newWidth2);
 
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
