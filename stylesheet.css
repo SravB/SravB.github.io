@@ -54,13 +54,28 @@ td:hover {
 }
 
 .cell3 {
-	background-image: url("images/TanksPicture.jpg");
+	background-image: url("images/shot_analysis.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .cell4 {
+	background-image: url("images/TanksPicture.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.cell5 {
+	background-image: url("images/PokemonStadium.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.cell6 {
   background-color: black;
 }
 
