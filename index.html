@@ -16,6 +16,10 @@ ADD ICON -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- stats - count particles -->  
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+<!-- stats.js lib --> 
+<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 </head>
 
 <body>
@@ -33,7 +37,7 @@ ADD ICON -->
 </div>
 
 <!-- Header -->
-<div id="Home">
+<div id="Home" style="width:100% !important; height: 650px !important;	">
 	<div style="text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 40px;
@@ -54,17 +58,8 @@ ADD ICON -->
 		 </div>
 
 	<div id="particles-js">
-		 
-  		<!-- <h1 class="w3-margin">Sourav Biswas</h1>
-  		<h3>Student, Leader, Creator</h3> -->
   	</div>
 </div>
-
-<!-- particles.js container --> 
-<!-- stats - count particles -->  
-<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-<!-- stats.js lib --> 
-<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
 <!-- First Grid -->
 <div id = "AboutMe" class="w3-row-padding w3-padding-64 w3-container">
@@ -179,7 +174,7 @@ ADD ICON -->
 $(document).ready(function(){
 	var windowWidth = $(window).width();
 	$('#Home').css('width', windowWidth);
-	$('#Home').css('height', windowWidth*0.5);
+	$('#Home').css('height', 650);
  	$('#hobbies').css('width', windowWidth);
     var newHeight = 280;
 	var newWidth = newHeight*1.6;
