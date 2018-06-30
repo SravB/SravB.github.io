@@ -1,8 +1,31 @@
-header {
+/* ---- particles.js container ---- */
+#particles-js {
+  /*position: absolute;*/
+/*  width: 100%;
+  height: 100%;
+  background-color: #000000;*/
+  background-image: url("images/Background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /*background-position: 50% 50%;*/
+}
+
+
+/*header {
 	background-image: url("images/Background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}*/
+
+#hobbies {
+  background-image: url("images/books.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 table {
