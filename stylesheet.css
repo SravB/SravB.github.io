@@ -61,7 +61,7 @@ td:hover {
 }
 
 .cell1 {
-	background-image: url("images/s1.jpg");
+	background-image: url("images/blockchaingePicture.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -69,7 +69,7 @@ td:hover {
 }
 
 .cell2 {
-	background-image: url("images/algo.jpg");
+	background-image: url("images/s1.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -77,21 +77,21 @@ td:hover {
 }
 
 .cell3 {
-	background-image: url("images/Jordan.jpg");
+	background-image: url("images/algo.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .cell4 {
-	background-image: url("images/TanksPicture.jpg");
+	background-image: url("images/Jordan.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .cell5 {
-	background-image: url("images/PokemonStadium.jpg");
+	background-image: url("images/TanksPicture.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
