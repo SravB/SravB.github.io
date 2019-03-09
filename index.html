@@ -25,45 +25,42 @@ ADD ICON -->
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card-2 w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#Home" class="w3-bar-item w3-button w3-padding-large w3-hover-white" style = "font-family: Raleway;">Home</a>
-    <a href="#AboutMe" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style = "font-family: Raleway;">About Me</a>
-    <a href="#Projects" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style = "font-family: Raleway;">Projects</a>
-    <a href="./Sourav_Biswas.pdf" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style = "font-family: Raleway;">Resume</a>
-    <a href="#Contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" style = "font-family: Raleway;">Contact</a>
+    <a href="#Home" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;width:20%;">Home</a>
+    <a href="#AboutMe" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway; width:20%;">About</a>
+    <a href="#Projects" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway; width:20%;">Projects</a>
+    <a href="./Sourav_Biswas.pdf" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway; width:20%;">Resume</a>
+    <a href="#Contact" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway; width:20%;">Contact</a>
   </div>
 </div>
 
 <!-- Header -->
-<div id="Home" style="width:100% !important;">
-	<div style="text-align: center;
-	font-family: 'Raleway', sans-serif;
-	font-size: 40px;
-	position: absolute;
-	width: 340px;
-	height: 150px;
-	background: #eee;
-	top: 50%;
-	left: 50%;
-	margin: -110px 0 0 -170px;
-	padding: 20px;
-	border-radius: 8px;
-	opacity: 0.5;">
-		 	<b>Sourav Biswas</b>
-		 	<div style="font-size: 22px !important;">
-		 		Student, Leader, Creator
-		 	</div>
-		 </div>
-
+<div id="Home" style="width:100% !important; height: 500px !important;">
+  <div id='name' style="text-align: center;
+      font-family: 'Raleway', sans-serif;
+      font-size:xx-large;
+      background: #eee;
+      width: 50%;
+      position: absolute;
+      padding: 20px;
+      margin: 25%;
+      border-radius: 8px;
+      opacity: 0.5;">
+        <b>Sourav Biswas</b>
+        <div style="font-size: medium;">
+          Student, Leader, Creator
+        </div>
+    </div>
 	<div id="particles-js">
-  	</div>
+    
+    
+  </div>
 </div>
 
 <!-- First Grid -->
 <div id = "AboutMe" class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content" id = "me">
       <h2>About Me</h2>
-      <h5 class="w3-padding-32">I'm currently a Computer Science & Business Double Degree student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>. I completed my first internship at <a href="https://www.bmocm.com/">BMO Capital Markets</a> during the Summer of 2018. I gained experience in full stack development, machine learning and blockchain. It was especially exciting because I was one of the primary software engineers that created the blockchain platform used in <b>the first blockchain bond issuance in Canada</b>. This initiative resulted in a <b>credit positive for BMO</b>. There are numerous press releases about the project - some notable articles have been published by <a href="https://www.bloomberg.com/news/articles/2018-08-15/bmo-ontario-teachers-test-canadian-debt-issuance-on-blockchain">Bloomberg</a>, <a href="https://www.coindesk.com/bmo-pension-plan-pilot-blockchain-for-fixed-income-issuance/">CoinDesk</a> and <a href="https://business.financialpost.com/technology/blockchain/bmo-launches-blockchain-based-pilot-for-fixed-income-transactions">Financial Post</a>.
+      <h5 class="w3-padding-32">I'm a Computer Science & Business Double Degree student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>.
       <br>
       <br>
       I'm a fast learner which allows me to be flexible with my technologies as necessary. I'm looking for internships and other learning opportunities so if you need another team member, feel free to contact me!
@@ -83,72 +80,68 @@ ADD ICON -->
   <h5 class="w3-padding-32">Hover for details or click on a project for more information.</h5>
   <!--<h5 class="w3-padding-32">Here are a few of my side projects.</a></h5>-->
 	<table>
-		<tr>
+		<tr class="row" id="row1">
 			<td class = "cell1">
 			<a class = "v1" href="https://github.com/SravB/BlockChainge" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
-				<div class = "cells" style="font-size:25px;"><b>BlockChainge</b></div>
-				<div class = "cells">A full stack Ethereum decentralized application to serve as a fundraising platform for charities and crowdsourcing.</div>
-				<div class = "cells">Built with: Truffle (Ganache), MetaMask, HTML/CSS, JavaScript(jQuery), Solidity</div>
+        <div id="cell1desc">
+  				<div class = "cells" style="font-size:x-large;"><b>BlockChainge</b></div>
+  				<div class = "cells">An Ethereum fundraising platform for charities and crowdsourcing.</div>
+  				<div class = "cells" style="font-size:small;">Built with: Truffle (Ganache), MetaMask, HTML/CSS, JavaScript(jQuery), Solidity</div>
+        </div>
 			</a>
 			</td>
 
 			<td class = "cell2">
 			<a class = "v2" href="https://github.com/htn-l/htn-l.github.io" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
-				<div class = "cells" style="font-size:25px;"><b>SumNotes</b></div>
-				<div class = "cells">Sit back and relax in your next meeting or lecture. This web application will take the notes for you!</div>
-				<div class = "cells">Built with: Python, HTML/CSS, JavaScript(jQuery), Flask, SQL</div>
+        <div id="cell2desc">
+  				<div class = "cells" style="font-size:x-large;"><b>SumNotes</b></div>
+  				<div class = "cells">Relax in your next meeting or lecture. This app will take the notes for you!</div>
+  				<div class = "cells" style="font-size:small;">Built with: Python, HTML/CSS, JavaScript(jQuery), Flask, SQL</div>
+        </div>
 			</a>
 			</td>
 		</tr>
-		<tr>
+		<tr class="row" id="row2">
 			<td class = "cell3">
 			<a class = "v3" href="https://github.com/SravB/Algorithmic-Trading" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
-				<div class = "cells" style="font-size:25px;"><b>Algorithmic Trading</b></div>
-				<div class = "cells">A trading algorithm implemented using machine learning. Predicts price movements with 75% accuracy.</div>
-				<div class = "cells">Built with: Python, Scikit-Learn, Pandas, Matplotlib</div>
-			</a>
+				<div id="cell3desc">
+          <div class = "cells" style="font-size:x-large;"><b>Algorithmic Trading</b></div>
+  				<div class = "cells">A trading algorithm implemented using machine learning.</div>
+  				<div class = "cells" style="font-size:small;">Built with: Python, Scikit-Learn, Pandas, Matplotlib</div>
+			  </div>
+      </a>
 			</td>
 
 			<td class = "cell4">
 			<a class = "v3" href="https://github.com/SravB/NBA-Court-Vision" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
-				<div class = "cells" style="font-size:25px;"><b>NBA Predictive Analytics</b></div>
-				<div class = "cells">Analyzes NBA players' shooting strengths and habits. Uses machine learning to simulate an athlete's gameplay.</div>
-				<div class = "cells">Built with: Python, Scikit-Learn, Pandas, Matplotlib</div>
-			</a>
+        <div id="cell4desc">
+  				<div class = "cells" style="font-size:x-large;"><b>NBA Predictive Analytics</b></div>
+  				<div class = "cells">Analyzes NBA players' shooting strengths and habits using data science.</div>
+  				<div class = "cells" style="font-size:small;">Built with: Python, Scikit-Learn, Pandas, Matplotlib</div>
+        </div>			
+      </a>
 			</td>
 
 		</tr>
 
-		<tr>
+		<tr class="row" id="row3">
 			<td class = "cell5">
 			<a class = "v3" href="https://github.com/SravB/Tanks" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
-				<div class = "cells" style="font-size:25px;"><b>Tanks</b></div>
-				<div class = "cells">A classic arcade style tanks game. Battle against a friend or an AI if you're up for a challenge.</div>
-				<div class = "cells">Built with: Python</div>
+				<div id="cell5desc">
+          <div class = "cells" style="font-size:x-large;"><b>Tanks</b></div>
+  				<div class = "cells">A classic arcade style tanks game.</div>
+  				<div class = "cells" style="font-size:small;">Built with: Python</div>
+        </div>
 			</a>
 			</td>
 
 			<td class = "cell6">
 			<a class = "v4" href="https://github.com/SravB" style="text-decoration: none; display:block; width:100%; height:100%; vertical-align: middle;">
-				<div class = "more" style="vertical-align: middle;">For more projects, check out my GitHub!</div></a>
+				<div id="cell6desc" class = "more" style="vertical-align: middle;">For more projects, </br>check out my GitHub!</div></a>
 			</td>
 		</tr>
 
 	</table>
-	  <!--<h4>Algorithmic Trading</h4>
-
-
-	  <p>This project implements a machine learning trading algorithm built using scikit-learn. After gathering stock data using the Google Finance API and pandas, the program illustrates the algorithm's results using matplotlib. The algorithm predicts stock price movements with 75% accuracy when price changes were randomized.</p>
-
-	  <p class = "italic">Built with: Python, scikit-learn, pandas, matplotlib</p>
-
-	  <h4>Tanks</h4>
-
-	  <p style="text-align:center"><img src="images/TanksPicture.jpg" width = "100%" height = "100%"></p>
-
-	  <p>Tanks is a recreation of various classic tank games. The main objective of this game is to destroy the opponent’s tank. This can be accomplished by depleting the opponent’s hit points. There is also an option to play against an AI opponent which uses optimal aiming and implements the A* search algorithm for pathfinding.<p class = "p1"><a href="https://github.com/SravB/Tanks">Can you beat the AI? Let's find out!</a></p></p>
-
-	  <p class = "italic">Built with: Python</p> -->
 
   </div>
 </div>
@@ -166,7 +159,7 @@ ADD ICON -->
 </div>
 
 <!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-center w3-opacity">
+<footer id="Footer" class="w3-container w3-padding-32 w3-center w3-opacity">
  <p>&copy Sourav Biswas 2018.</p>
 </footer>
 
@@ -174,26 +167,45 @@ ADD ICON -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-	var windowWidth = $(window).width();
+	var windowWidth = window.innerWidth;
 	$('#Home').css('width', windowWidth);
 	//$('#Home').css('height', 650);
+  $('#AboutMe').css('width', windowWidth);
  	$('#hobbies').css('width', windowWidth);
-    var newHeight = 280;
-	var newWidth = newHeight*1.6;
-    $(".cell1").height(newHeight);
-	$(".cell2").height(newHeight);
-	$(".cell3").height(newHeight);
-	$(".cell4").height(newHeight);
-	$(".cell5").height(newHeight);
-	$(".cell6").height(newHeight);
+  $('#Projects').css('width', windowWidth);
+  $('#Contact').css('width', windowWidth);
+  $('#Footer').css('width', windowWidth);
+	var newWidth = windowWidth/2;
+  var mobile = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
+
+  if (mobile) {
+    document.getElementById("name").style.margin = "37%";
+    document.getElementById("cell1desc").innerHTML = "";
+    document.getElementById("cell2desc").innerHTML = "";
+    document.getElementById("cell3desc").innerHTML = "";
+    document.getElementById("cell4desc").innerHTML = "";
+    document.getElementById("cell5desc").innerHTML = "";
+    document.getElementById("cell6desc").style.fontSize = "x-small";
+  }
+
+  var newHeight = newWidth/1.6;
+  if (mobile) {
+    newHeight = 100
+  }
+  $(".row").height(newHeight);
+	// $(".cell2").height(newHeight);
+	// $(".cell3").height(newHeight);
+	// $(".cell4").height(newHeight);
+	// $(".cell5").height(newHeight);
+	// $(".cell6").height(newHeight);
 	$(".cell1").width(newWidth);
 	$(".cell2").width(newWidth);
 	$(".cell3").width(newWidth);
 	$(".cell4").width(newWidth);
 	$(".cell5").width(newWidth);
 	$(".cell6").width(newWidth);
-    $(".more").css("padding-top", Math.round(newHeight/2 - 20));
-	var newWidth2 = Math.max($("#contact1").width(), $("#contact2").width(), $("#contact3").width()) + 100;
+  $(".more").css("padding-top", Math.round(newHeight/2 - 20));
+	var newWidth2 = Math.max($("#contact1").width(), $("#contact2").width(), $("#contact3").width()) + 20;
 	$("#contact1").width(newWidth2);
 	$("#contact2").width(newWidth2);
 	$("#contact3").width(newWidth2);
