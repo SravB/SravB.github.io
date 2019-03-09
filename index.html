@@ -25,11 +25,11 @@ ADD ICON -->
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card-2 w3-left-align w3-large">
-    <a href="#Home" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;width:20%;">Home</a>
-    <a href="#AboutMe" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway; width:20%;">About</a>
-    <a href="#Projects" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway; width:20%;">Projects</a>
-    <a href="./Sourav_Biswas.pdf" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway; width:20%;">Resume</a>
-    <a href="#Contact" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway; width:20%;">Contact</a>
+    <a href="#Home" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Home</a>
+    <a href="#AboutMe" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">About</a>
+    <a href="#Projects" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Projects</a>
+    <a href="./Sourav_Biswas.pdf" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Resume</a>
+    <a href="#Contact" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Contact</a>
   </div>
 </div>
 
@@ -42,7 +42,6 @@ ADD ICON -->
       width: 50%;
       position: absolute;
       padding: 20px;
-      margin: 25%;
       border-radius: 8px;
       opacity: 0.5;">
         <b>Sourav Biswas</b>
@@ -85,7 +84,7 @@ ADD ICON -->
 			<a class = "v1" href="https://github.com/SravB/BlockChainge" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
         <div id="cell1desc">
   				<div class = "cells" style="font-size:x-large;"><b>BlockChainge</b></div>
-  				<div class = "cells">An Ethereum fundraising platform for charities and crowdsourcing.</div>
+  				<div class = "cells">A full stack Ethereum decentralized application to serve as a fundraising platform for charities and crowdsourcing.</div>
   				<div class = "cells" style="font-size:small;">Built with: Truffle (Ganache), MetaMask, HTML/CSS, JavaScript(jQuery), Solidity</div>
         </div>
 			</a>
@@ -95,7 +94,7 @@ ADD ICON -->
 			<a class = "v2" href="https://github.com/htn-l/htn-l.github.io" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
         <div id="cell2desc">
   				<div class = "cells" style="font-size:x-large;"><b>SumNotes</b></div>
-  				<div class = "cells">Relax in your next meeting or lecture. This app will take the notes for you!</div>
+  				<div class = "cells">Sit back and relax in your next meeting or lecture. This web application will take the notes for you!</div>
   				<div class = "cells" style="font-size:small;">Built with: Python, HTML/CSS, JavaScript(jQuery), Flask, SQL</div>
         </div>
 			</a>
@@ -106,7 +105,7 @@ ADD ICON -->
 			<a class = "v3" href="https://github.com/SravB/Algorithmic-Trading" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
 				<div id="cell3desc">
           <div class = "cells" style="font-size:x-large;"><b>Algorithmic Trading</b></div>
-  				<div class = "cells">A trading algorithm implemented using machine learning.</div>
+  				<div class = "cells">A trading algorithm implemented using machine learning. Predicts price movements with 75% accuracy.</div>
   				<div class = "cells" style="font-size:small;">Built with: Python, Scikit-Learn, Pandas, Matplotlib</div>
 			  </div>
       </a>
@@ -116,7 +115,7 @@ ADD ICON -->
 			<a class = "v3" href="https://github.com/SravB/NBA-Court-Vision" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
         <div id="cell4desc">
   				<div class = "cells" style="font-size:x-large;"><b>NBA Predictive Analytics</b></div>
-  				<div class = "cells">Analyzes NBA players' shooting strengths and habits using data science.</div>
+  				<div class = "cells">Analyzes NBA players' shooting strengths and habits. Uses machine learning to simulate an athlete's gameplay.</div>
   				<div class = "cells" style="font-size:small;">Built with: Python, Scikit-Learn, Pandas, Matplotlib</div>
         </div>			
       </a>
@@ -129,7 +128,7 @@ ADD ICON -->
 			<a class = "v3" href="https://github.com/SravB/Tanks" style="display:block; width:100%; height:100%; text-decoration:none; vertical-align: middle;">
 				<div id="cell5desc">
           <div class = "cells" style="font-size:x-large;"><b>Tanks</b></div>
-  				<div class = "cells">A classic arcade style tanks game.</div>
+  				<div class = "cells">A classic arcade style tanks game. Battle against a friend or an AI if you're up for a challenge.</div>
   				<div class = "cells" style="font-size:small;">Built with: Python</div>
         </div>
 			</a>
@@ -169,35 +168,41 @@ ADD ICON -->
 $(document).ready(function(){
 	var windowWidth = window.innerWidth;
 	$('#Home').css('width', windowWidth);
-	//$('#Home').css('height', 650);
   $('#AboutMe').css('width', windowWidth);
  	$('#hobbies').css('width', windowWidth);
   $('#Projects').css('width', windowWidth);
   $('#Contact').css('width', windowWidth);
   $('#Footer').css('width', windowWidth);
 	var newWidth = windowWidth/2;
+  var newMargin = (windowWidth-document.getElementById("name").offsetWidth)/2;
+  document.getElementById("name").style.marginTop = (newMargin/2).toString() + "px";
+  document.getElementById("name").style.marginLeft = newMargin.toString() + "px";
+  document.getElementById("name").style.marginRight = newMargin.toString() + "px";
+
   var mobile = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
 
+  var newHeight = newWidth/1.6;
+  if (newHeight < 100) {
+    newHeight = 100
+  }
+  $(".row").height(newHeight);
+
   if (mobile) {
-    document.getElementById("name").style.margin = "37%";
     document.getElementById("cell1desc").innerHTML = "";
     document.getElementById("cell2desc").innerHTML = "";
     document.getElementById("cell3desc").innerHTML = "";
     document.getElementById("cell4desc").innerHTML = "";
     document.getElementById("cell5desc").innerHTML = "";
     document.getElementById("cell6desc").style.fontSize = "x-small";
+  } else {
+    for (let i = 1; i <= 5; i++) {
+      // var newMarginHeight = (newHeight-document.getElementById("cell"+i.toString()+"desc").offsetHeight)/2;
+      $("#cell"+i.toString()+"desc").css("padding-top", Math.round((newHeight-document.getElementById("cell"+i.toString()+"desc").offsetHeight)/2));
+    }
   }
 
-  var newHeight = newWidth/1.6;
-  if (mobile) {
-    newHeight = 100
-  }
-  $(".row").height(newHeight);
-	// $(".cell2").height(newHeight);
-	// $(".cell3").height(newHeight);
-	// $(".cell4").height(newHeight);
-	// $(".cell5").height(newHeight);
-	// $(".cell6").height(newHeight);
+
+
 	$(".cell1").width(newWidth);
 	$(".cell2").width(newWidth);
 	$(".cell3").width(newWidth);
@@ -205,7 +210,7 @@ $(document).ready(function(){
 	$(".cell5").width(newWidth);
 	$(".cell6").width(newWidth);
   $(".more").css("padding-top", Math.round(newHeight/2 - 20));
-	var newWidth2 = Math.max($("#contact1").width(), $("#contact2").width(), $("#contact3").width()) + 20;
+	var newWidth2 = Math.min(Math.max($("#contact1").width(), $("#contact2").width(), $("#contact3").width()) + 100, windowWidth-200);
 	$("#contact1").width(newWidth2);
 	$("#contact2").width(newWidth2);
 	$("#contact3").width(newWidth2);
