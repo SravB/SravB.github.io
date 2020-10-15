@@ -24,7 +24,8 @@
   <div class="w3-bar w3-black w3-card-2 w3-left-align w3-large">
     <a href="#Home" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Home</a>
     <a href="#AboutMe" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">About</a>
-    <a href="#Projects" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Projects</a>
+    <a href="#Publications" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Publications</a>
+	<a href="#Projects" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Projects</a>
     <a href="./Sourav_Biswas.pdf" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Resume</a>
     <a href="#Contact" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Contact</a>
   </div>
@@ -56,18 +57,45 @@
 <div id = "AboutMe" class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content" id = "me">
       <h2>About Me</h2>
-      <h5 class="w3-padding-32">I'm a Computer Science & Business Double Degree student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>.
+      <h5 class="w3-padding-32">I'm a 4th year Computer Science & Business Double Degree student at the <a href="https://uwaterloo.ca/">University of Waterloo</a>.
       <br>
       <br>
-      I'm a fast learner which allows me to be flexible with my technologies as necessary. I'm looking for internships and other learning opportunities so if you need another team member, feel free to contact me!
+      I'm currently an undergraduate research assistant under the supervision of Professor <a href="http://www.gautamkamath.com/">Gautam Kamath</a>. Previously I was a machine learning research intern at <a href="https://www.uber.com/ca/en/atg/">Uber Advanced Technologies Group</a> supervised by Professor <a href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a>. I also have experience as a software engineering intern at <a href="https://www.wish.com/careers/engineering?hide_login_modal=true">Wish</a> and a quantitative analyst at <a href="https://capitalmarkets.bmo.com/en/">BMO Capital Markets</a>.
       </h5>
 
   </div>
 </div>
 
-<div id = "hobbies" style="height: 300px; vertical-align: middle !important;">
-  <h5 style="padding-top: 150px; color: white;">Aside from mathematics and computer science, I invest my time in basketball, track & field, weightlifting, chess, drawing and reading.</h5>
+<div id = "hobbies" style="vertical-align: middle !important;">
+  <h5 style="padding-top: 100px; padding-bottom: 100px; padding-left:50px; padding-right:50px; color: white;">Aside from mathematics and computer science, I invest my time in basketball, track & field, weightlifting, chess, drawing, reading and poker.</h5>
 </div>
+
+<!-- Next Grid -->
+<div id = "Publications" class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+      <h2>Research Publications</h2>
+      <h5 class="w3-padding-32">
+      	<a style="font-size:x-large;"><b>MuSCLE: Multi Sweep Compression of LiDAR using Deep Entropy Models </b></a>
+      	<br> 
+      	<a style=""><b style="font-weight: 900;">Sourav Biswas</b>, Jerry Liu, Kelvin Wong, Shenlong Wang, Raquel Urtasun</a>
+      		<a style="font-style: italic;">Advances in Neural Information Processing Systems 33 
+      		(<a href="https://neurips.cc/Conferences/2020">NeurIPS 2020</a>).</a>
+      	<br>
+      	<br>
+      	<br>
+      	<a style="font-size:x-large;"><b>CoinPress: Practical Private Mean and Covariance Estimation </b></a>
+      	<br>
+      	<a style=""><b style="font-weight: 900;">Sourav Biswas</b>, Yihe Dong, Gautam Kamath, Jonathan Ullman</a><br>
+      		<a style="font-style: italic;">Advances in Neural Information Processing Systems 33 
+      		(<a href="https://neurips.cc/Conferences/2020">NeurIPS 2020</a>).</a>
+      	<br>
+      	[<a href="https://arxiv.org/pdf/2006.06618.pdf">paper link</a>]
+      	<br>
+      </h5>
+
+  </div>
+</div>
+
 
 <!-- Second Grid -->
 <div id = "Projects" class="w3-row-padding w3-padding-64 w3-container">
@@ -156,7 +184,7 @@
 
 <!-- Footer -->
 <footer id="Footer" class="w3-container w3-padding-32 w3-center w3-opacity">
- <p>&copy Sourav Biswas 2019</p>
+ <p>&copy Sourav Biswas 2020</p>
 </footer>
 
 </body>
@@ -167,6 +195,7 @@ $(document).ready(function(){
   $('#Home').css('width', windowWidth);
   $('#Home').css('height', windowWidth/2);
   $('#AboutMe').css('width', windowWidth);
+  $('#Publications').css('width', windowWidth);
   $('#hobbies').css('width', windowWidth);
   $('#Projects').css('width', windowWidth);
   $('#Contact').css('width', windowWidth);
