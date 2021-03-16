@@ -28,19 +28,19 @@
   background-position: center center;
 }
 
-table {
+table#projectTable {
 	width: 100%;
 	height: 100%;
 	border-spacing: 30px;
 
 }
 
-tr {
+table#projectTable > tr {
 	width: 100%;
 	height: 100%;
 }
 
-td {
+table#projectTable > td {
 	transition-duration: 0.8s;
 	text-align: center;
 	vertical-align: middle;
@@ -48,7 +48,7 @@ td {
 
 }
 
-td:hover {
+table#projectTable > td:hover {
 	background-color: white;
 	opacity: 0.9;
 	box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.5);
@@ -263,3 +263,5 @@ a:hover {
 	color: #FFFFFF;
 	background-color: #000000;
 }
+
+

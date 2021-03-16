@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="timeline.css">
   <!-- stats - count particles -->  
   <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
 </head>
@@ -21,7 +22,7 @@
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-black w3-card-2 w3-left-align w3-large">
+  <div class="w3-bar w3-black w3-card-2 w3-left-align w3-large" style="position: absolute; z-index: 1;">
     <a href="#Home" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Home</a>
     <a href="#AboutMe" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">About</a>
     <a href="#Publications" class="w3-bar-item w3-button w3-hover-white" style = "font-family: Raleway;">Publications</a>
@@ -57,11 +58,88 @@
 <div id = "AboutMe" class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content" id = "me">
       <h2>About Me</h2>
-      <h5 class="w3-padding-32">I'm a 4th year undergraduate student at the <a style="color: #268bd2;" href="https://uwaterloo.ca/">University of Waterloo</a>. I have interests in machine learning and data privacy.
+      <h5 class="w3-padding-32">I'm in my final year of undergraduate studies at the <a style="color: #268bd2;" href="https://uwaterloo.ca/">University of Waterloo</a> pursuing Computer Science and Finance. I have interests in machine learning and data privacy.
       <br>
       <br>
-      I'm currently a research assistant under the supervision of Professor <a style="color: #268bd2;" href="http://www.gautamkamath.com/">Gautam Kamath</a>. Previously I researched LiDAR compression methods with deep learning for autonomous vehicles at <a style="color: #268bd2;" href="https://www.uber.com/ca/en/atg/">Uber Advanced Technologies Group</a> supervised by Professor <a style="color: #268bd2;" href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a>. I also have experience as a software engineering intern at <a style="color: #268bd2;" href="https://www.wish.com/careers/engineering?hide_login_modal=true">Wish</a> and as a quantitative analyst at <a style="color: #268bd2;" href="https://capitalmarkets.bmo.com/en/">BMO Capital Markets</a> where I created financial tools to analyze bond markets.
+      I'm currently a research assistant under the supervision of Professor <a style="color: #268bd2;" href="http://www.gautamkamath.com/">Gautam Kamath</a>. 
       </h5>
+
+
+      <div class="timeline">
+        <div class="container right">
+          <div class="content">
+            <table>
+              <tr>
+                <td style='width:150px'>
+                  <img style="display: inline-block; width: 100px;" src="images/nvidia_logo.png" alt="Nvidia">
+                </td>
+                <td>
+                  <h2 style='text-align: left;'>2021</h2>
+                  <p style="display: inline-block; text-align: left;">
+                    Upcoming research internship at 
+                    at <a style="color: #268bd2;" href="https://www.nvidia.com/en-us/research/">Nvidia AI lab</a> supervised by Professor <a style="color: #268bd2;" href="https://www.cs.utoronto.ca/~fidler/">Sanja Fidler</a>.
+                  </p>
+                </td>
+              <tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="container right">
+          <div class="content">
+            <table>
+              <tr>
+                <td style='width:150px'>
+                  <img style="display: inline-block; width: 100px;" src="images/uber_logo.png" alt="Uber">
+                </td>
+                <td>
+                  <h2 style='text-align: left;'>2020</h2>
+                  <p style="display: inline-block; text-align: left;">
+                    Previously I researched LiDAR compression methods with deep learning for autonomous vehicles at <a style="color: #268bd2;" href="https://eng.uber.com/">Uber Advanced Technologies Group</a> supervised by Professor <a style="color: #268bd2;" href="http://www.cs.toronto.edu/~urtasun/">Raquel Urtasun</a>.
+                  </p>
+                </td>
+              <tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="container right">
+          <div class="content">
+            <table>
+              <tr>
+                <td style='width:150px'>
+                  <img style="display: inline-block; width: 100px;" src="images/wish_logo.png" alt="Wish">
+                </td>
+                <td>
+                  <h2 style='text-align: left;'>2019</h2>
+                  <p style="display: inline-block; text-align: left;">
+                    I also have experience as a software engineering intern at <a style="color: #268bd2;" href="https://www.wish.com/careers/engineering?hide_login_modal=true">Wish</a> on the product web development team.
+                  </p>
+                </td>
+              <tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="container right">
+          <div class="content">
+            <table>
+              <tr>
+                <td style='width:150px'>
+                  <img style="display: inline-block; width: 100px;" src="images/bmo_logo.png" alt="BMO">
+                </td>
+                <td>
+                  <h2 style='text-align: left;'>2018</h2>
+                  <p style="display: inline-block; text-align: left;">
+                    I was also a quantitative analyst at <a style="color: #268bd2;" href="https://capitalmarkets.bmo.com/en/">BMO Capital Markets</a> where I created financial tools to analyze bond markets.
+                  </p>
+                </td>
+              <tr>
+            </table>
+          </div>
+        </div>
+
+      </div>
 
   </div>
 </div>
@@ -195,6 +273,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
+
   var windowWidth = window.innerWidth;
   $('#Home').css('width', windowWidth);
   $('#Home').css('height', windowWidth/2);
